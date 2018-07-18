@@ -52,7 +52,7 @@ const actors: ActorMap<AppSettings> = {
 
 /*
 Estados Unidos https://www.voanoticias.com/z/360
-Venezuela https://www.voanoticias.com/Venezuela
+Venezuela https://www.voanoticias.com/z/3998
 Inmigración https://www.voanoticias.com/z/4159
 Internacionales https://www.voanoticias.com/z/358
 América Latina https://www.voanoticias.com/z/359
@@ -68,6 +68,10 @@ export const INITIAL_STATE: AppSettings = {
     {
       id: 360,
       name: 'Estados Unidos',
+    },
+    {
+      id: 3998,
+      name: 'Venezuela',
     },
     {
       id: 4159,

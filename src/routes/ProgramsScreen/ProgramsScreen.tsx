@@ -26,12 +26,24 @@ const VIDEO_ZONES: Category[] = [
     id: 0,
     name: 'Programas',
   },
+  {
+    id: 548,
+    name: 'Foro Interamericano',
+  },
+  {
+    id: 549,
+    name: 'El mundo al día',
+  },
 ]
 
 const AUDIO_ZONES: Category[] = [
   {
     id: 0,
     name: 'Programas',
+  },
+  {
+    id: 537,
+    name: 'Buenos Días América',
   },
 ]
 

@@ -87,17 +87,13 @@ export const favoritesSettingsLabels = {
 
 export const homeLabels = {
   headlines: 'Titulares',
-  search: 'Search',
+  search: 'Buscar',
   manage: '+',
 }
 
 export const introLabels = {
   content: '¡Bienvenido al mundo de VOA Noticias!',
   continue: 'Continuar',
-}
-
-const hilight: React.CSSProperties = {
-  color: '#0162B1',
 }
 
 export const mediaPlayerLabels = {
