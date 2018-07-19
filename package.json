@@ -1,5 +1,5 @@
 {
-  "name": "com.voanews.voako",
+  "name": "com.voanews.voaes",
   "displayName": "VOASpanish",
   "version": "1.0.0",
   "description": "Voice of America Mobile for Spanish Audiences",
@@ -33,7 +33,7 @@
     "copy:assets:android": "rsync -rv ./assets/android/res/ ./platforms/android/res/",
     "build:android:clean": "rimraf platforms && npm run build:webpack && cordova prepare android &&& npm run copy:assets:android && cordova build android",
     "build:android": "npm run build:webpack && cordova build android",
-    "deploy:android": "adb uninstall com.voanews.voako > /dev/null 2>&1 || true && adb install platforms/android/build/outputs/apk/debug/android-debug.apk",
+    "deploy:android": "adb uninstall com.voanews.voaes > /dev/null 2>&1 || true && adb install platforms/android/build/outputs/apk/debug/android-debug.apk",
     "scss:types": "tcm -p './src/{components,containers,routes}/**/*.scss'",
     "scss:types:watch": "npm run scss:types -- -w",
     "cordova:prepare": "cordova prepare",
