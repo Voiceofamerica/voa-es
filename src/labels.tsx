@@ -13,10 +13,10 @@ import { Audience } from 'helpers/graphql-types'
 setAnalyticsOptions({
   language: 'spahish',
   languageService: 'spahish',
-  propertyName: 'spahish',
+  propertyName: 'voa spahish news app',
   propertyId: 'something',
-  rsidAccount: 'something',
-  reportSuite: 'something',
+  rsidAccount: 'bbgvoa.spanish.streaming.app',
+  reportSuite: 'bbgvoa.spanish.streaming.app',
 })
 setDirection('ltr')
 
