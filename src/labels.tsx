@@ -14,7 +14,7 @@ setAnalyticsOptions({
   language: 'spahish',
   languageService: 'spahish',
   propertyName: 'voa spahish news app',
-  propertyId: 'something',
+  propertyId: '344',
   rsidAccount: 'bbgvoa.spanish.streaming.app',
   reportSuite: 'bbgvoa.spanish.streaming.app',
 })
