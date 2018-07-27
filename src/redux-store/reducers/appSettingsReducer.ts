@@ -66,10 +66,6 @@ Ciencia https://www.voanoticias.com/z/373
 export const INITIAL_STATE: AppSettings = {
   categories: [
     {
-      id: 360,
-      name: 'Estados Unidos',
-    },
-    {
       id: 3998,
       name: 'Venezuela',
     },
@@ -84,26 +80,6 @@ export const INITIAL_STATE: AppSettings = {
     {
       id: 359,
       name: 'América Latina',
-    },
-    {
-      id: 452,
-      name: 'Videos',
-    },
-    {
-      id: 400,
-      name: 'Economía',
-    },
-    {
-      id: 401,
-      name: 'Tecnología',
-    },
-    {
-      id: 387,
-      name: 'Entretenimiento',
-    },
-    {
-      id: 373,
-      name: 'Ciencia',
     },
   ],
   mediaPlaybackRate: 1,

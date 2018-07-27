@@ -24,22 +24,22 @@ const DEFAULT = VIDEO
 const VIDEO_ZONES: Category[] = [
   {
     id: 0,
-    name: 'Programas',
-  },
-  {
-    id: 548,
-    name: 'Foro Interamericano',
+    name: 'Hoy',
   },
   {
     id: 549,
     name: 'El mundo al día',
+  },
+  {
+    id: 548,
+    name: 'Foro Interamericano',
   },
 ]
 
 const AUDIO_ZONES: Category[] = [
   {
     id: 0,
-    name: 'Programas',
+    name: 'Hoy',
   },
   {
     id: 537,
