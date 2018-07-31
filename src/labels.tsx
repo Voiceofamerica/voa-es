@@ -37,7 +37,7 @@ export const categorySettingsLabels = {
   allCategories: 'Todas las categorías',
   dragAndDrop: 'Arrastra tus categorías aquí',
   headlinesFirst: 'Titulares especificados primero',
-  cancel: 'Cancel',
+  cancel: 'Cancelar',
 }
 
 export const circumventionDrawerLabels = {
@@ -47,11 +47,13 @@ export const circumventionDrawerLabels = {
       La Voz de América utiliza tecnología Psiphon proxy de "elusión" para encriptar las noticias que le entregamos. Psiphon evita que los observadores externos determinen su dirección IP, identidad y ubicación. Esta tecnología es confiable para más de 10 millones de usuarios.
       </p>
       <p>
-        You can change this in
+      Su conexión con VOA es privada y anónima.
+      </p>
+      <p>
         <a href='#' onClick={() => {
           store.dispatch(push('/settings'))
           store.dispatch(toggleCircumventionDrawer({ open: false }))
-        }}>Settings</a>.
+        }}>Usted puede modificar esta configuración</a>.
       </p>
     </div>
   ),
@@ -61,11 +63,13 @@ export const circumventionDrawerLabels = {
       La Voz de América utiliza tecnología Psiphon proxy de "elusión" para encriptar las noticias que le entregamos. Psiphon evita que los observadores externos determinen su dirección IP, identidad y ubicación. Esta tecnología es confiable para más de 10 millones de usuarios.
       </p>
       <p>
-        You can change this in
+      Su conexión segura a través de proxy está apagada.
+      </p>
+      <p>
         <a href='#' onClick={() => {
           store.dispatch(push('/settings'))
           store.dispatch(toggleCircumventionDrawer({ open: false }))
-        }}>Settings</a>.
+        }}>Usted puede modificar esta configuración</a>.
       </p>
     </div>
   ),
@@ -148,10 +152,10 @@ export const settingsLabels = {
   feedbackSubject: encodeURIComponent('Retroalimentación de lectores y usuarios'),
   feedbackBody: encodeURIComponent(''),
   shareMessage: 'Revisa esta aplicación',
-  psiphon: 'Secure proxy',
+  psiphon: 'Proxy Seguro',
   psiphonOn: 'On',
   psiphonOff: 'Off',
-  takeEffectOnRestart: 'You must restart the app for your changes to take effect.',
+  takeEffectOnRestart: 'Debe re-iniciar la aplicación para que los cambios se apliquen.',
   okay: 'Okay',
 }
 
