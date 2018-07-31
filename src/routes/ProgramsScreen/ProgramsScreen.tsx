@@ -32,7 +32,7 @@ const VIDEO_ZONES: Category[] = [
   },
   {
     id: 548,
-    name: 'Foro Interamericano',
+    name: 'Foro',
   },
 ]
 
