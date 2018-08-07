@@ -10,6 +10,8 @@ import { setDirection } from '@voiceofamerica/voa-shared/helpers/textDirectionHe
 
 import { Audience } from 'helpers/graphql-types'
 
+export const defaultAppTopic = 'es'
+
 setAnalyticsOptions({
   language: 'spahish',
   languageService: 'spahish',
@@ -125,8 +127,8 @@ export const programsScreenLabels = {
 }
 
 export const psiphonLoadingLabels = {
-  bold: 'Please be patient.',
-  text: 'This may take a few minutes while we gather the best information for you.',
+  bold: '',
+  text: 'Mientras buscamos la mejor información para usted, por favor tenga paciencia.',
 }
 
 export const pullToRefreshLabels = {
